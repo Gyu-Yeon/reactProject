@@ -15,6 +15,14 @@
  - first, choose any usestate that you need, and then right this line (if usestate name is nums) < container nums={nums} / >
  - second, write props as the parameter of components that you are going to use. 
  - ex)  props.title
+
+## 4. Handling input data
+- save input data as usestate.
+- use  onChange method.
+- when you write something in input onChange is working.
+- use e.target.value to track what input contains
+- ex) onChange={ (e)=>{ e.target.value}}
  
  
+ 2022.01.10
 
