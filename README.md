@@ -9,4 +9,12 @@
  - write the statement before ? sign. and after ? sign write the code that should be execute when statement is true. after : write the code for else
  - ex) 1 < 3 ? console.log('hi) : null
  
+ 
+  ## 3. How to use props in JSX
+ - what is props? : props is JSX grammar that can let you share parents component's usestates to children component
+ - first, choose any usestate that you need, and then right this line (if usestate name is nums) < container nums={nums} / >
+ - second, write props as the parameter of components that you are going to use. 
+ - ex)  props.title
+ 
+ 
 
